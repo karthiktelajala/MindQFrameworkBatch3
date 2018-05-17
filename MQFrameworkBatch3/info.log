@@ -1,0 +1,173 @@
+2018-56-16 08:56:13 INFO  TestBase:23 - Opened the browser: chrome
+2018-56-16 08:56:14 INFO  TestBase:25 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-56-16 08:56:15 INFO  LoginPageTests:43 - Entered username: Admin
+2018-56-16 08:56:15 INFO  LoginPageTests:45 - Entered password: admin
+2018-56-16 08:56:17 INFO  LoginPageTests:48 - clicked login button
+2018-56-16 08:56:19 INFO  LoginPageTests:52 - Captured the Title of Home page: OrangeHRM
+2018-56-16 08:56:23 INFO  TestBase:23 - Opened the browser: chrome
+2018-56-16 08:56:25 INFO  TestBase:25 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-56-16 08:56:25 INFO  LoginPageTests:63 - Entered username: Admin
+2018-56-16 08:56:25 INFO  LoginPageTests:65 - Entered password: admin123
+2018-56-16 08:56:26 INFO  LoginPageTests:67 - clicked login button
+2018-56-16 08:56:27 INFO  LoginPageTests:71 - Captured the Error Login Message: Invalid credentials
+2018-05-16 09:05:00 INFO  TestBase:26 - Opened the browser: chrome
+2018-05-16 09:05:01 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-05-16 09:05:03 INFO  LoginPageTests:44 - Entered username: Admin
+2018-05-16 09:05:03 INFO  LoginPageTests:46 - Entered password: admin
+2018-05-16 09:05:05 INFO  LoginPageTests:49 - clicked login button
+2018-05-16 09:05:07 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-05-16 09:05:11 INFO  TestBase:26 - Opened the browser: chrome
+2018-05-16 09:05:12 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-05-16 09:05:13 INFO  LoginPageTests:64 - Entered username: Admin
+2018-05-16 09:05:13 INFO  LoginPageTests:66 - Entered password: admin123
+2018-05-16 09:05:14 INFO  LoginPageTests:68 - clicked login button
+2018-05-16 09:05:14 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-07-16 09:07:22 INFO  TestBase:26 - Opened the browser: firefox
+2018-07-16 09:07:23 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-07-16 09:07:25 INFO  LoginPageTests:44 - Entered username: Admin
+2018-07-16 09:07:25 INFO  LoginPageTests:46 - Entered password: admin
+2018-07-16 09:07:27 INFO  LoginPageTests:49 - clicked login button
+2018-07-16 09:07:27 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-07-16 09:07:30 INFO  TestBase:26 - Opened the browser: firefox
+2018-07-16 09:07:32 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-07-16 09:07:33 INFO  LoginPageTests:64 - Entered username: Admin
+2018-07-16 09:07:33 INFO  LoginPageTests:66 - Entered password: admin123
+2018-07-16 09:07:34 INFO  LoginPageTests:68 - clicked login button
+2018-07-16 09:07:34 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-09-16 09:09:01 INFO  TestBase:26 - Opened the browser: firefox
+2018-09-16 09:09:02 INFO  TestBase:26 - Opened the browser: chrome
+2018-09-16 09:09:03 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-09-16 09:09:04 INFO  LoginPageTests:44 - Entered username: Admin
+2018-09-16 09:09:04 INFO  LoginPageTests:46 - Entered password: admin
+2018-09-16 09:09:05 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-09-16 09:09:06 INFO  LoginPageTests:49 - clicked login button
+2018-09-16 09:09:06 INFO  LoginPageTests:44 - Entered username: Admin
+2018-09-16 09:09:06 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-09-16 09:09:07 INFO  LoginPageTests:46 - Entered password: admin
+2018-09-16 09:09:09 INFO  LoginPageTests:49 - clicked login button
+2018-09-16 09:09:10 INFO  TestBase:26 - Opened the browser: firefox
+2018-09-16 09:09:10 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-09-16 09:09:11 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-09-16 09:09:12 INFO  LoginPageTests:64 - Entered username: Admin
+2018-09-16 09:09:12 INFO  LoginPageTests:66 - Entered password: admin123
+2018-09-16 09:09:13 INFO  LoginPageTests:68 - clicked login button
+2018-09-16 09:09:13 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-09-16 09:09:17 INFO  TestBase:26 - Opened the browser: chrome
+2018-09-16 09:09:18 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-09-16 09:09:19 INFO  LoginPageTests:64 - Entered username: Admin
+2018-09-16 09:09:19 INFO  LoginPageTests:66 - Entered password: admin123
+2018-09-16 09:09:19 INFO  LoginPageTests:68 - clicked login button
+2018-09-16 09:09:20 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-57-17 08:57:56 INFO  TestBase:26 - Opened the browser: firefox
+2018-57-17 08:57:56 INFO  TestBase:26 - Opened the browser: chrome
+2018-57-17 08:57:58 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-57-17 08:57:58 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-58-17 08:58:00 INFO  LoginPageTests:44 - Entered username: Admin
+2018-58-17 08:58:00 INFO  LoginPageTests:46 - Entered password: admin
+2018-58-17 08:58:00 INFO  LoginPageTests:44 - Entered username: Admin
+2018-58-17 08:58:00 INFO  LoginPageTests:46 - Entered password: admin
+2018-58-17 08:58:02 INFO  LoginPageTests:49 - clicked login button
+2018-58-17 08:58:02 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-58-17 08:58:02 INFO  LoginPageTests:49 - clicked login button
+2018-58-17 08:58:04 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-58-17 08:58:06 INFO  TestBase:26 - Opened the browser: firefox
+2018-58-17 08:58:08 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-58-17 08:58:08 INFO  LoginPageTests:64 - Entered username: Admin
+2018-58-17 08:58:08 INFO  LoginPageTests:66 - Entered password: admin123
+2018-58-17 08:58:09 INFO  LoginPageTests:68 - clicked login button
+2018-58-17 08:58:09 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-58-17 08:58:11 INFO  TestBase:26 - Opened the browser: chrome
+2018-58-17 08:58:12 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-58-17 08:58:12 INFO  LoginPageTests:64 - Entered username: Admin
+2018-58-17 08:58:12 INFO  LoginPageTests:66 - Entered password: admin123
+2018-58-17 08:58:13 INFO  LoginPageTests:68 - clicked login button
+2018-58-17 08:58:14 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-03-17 09:03:11 INFO  TestBase:26 - Opened the browser: firefox
+2018-03-17 09:03:11 INFO  TestBase:26 - Opened the browser: chrome
+2018-03-17 09:03:12 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-03-17 09:03:13 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-03-17 09:03:14 INFO  LoginPageTests:44 - Entered username: Admin
+2018-03-17 09:03:14 INFO  LoginPageTests:44 - Entered username: Admin
+2018-03-17 09:03:14 INFO  LoginPageTests:46 - Entered password: admin
+2018-03-17 09:03:14 INFO  LoginPageTests:46 - Entered password: admin
+2018-03-17 09:03:16 INFO  LoginPageTests:49 - clicked login button
+2018-03-17 09:03:16 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-03-17 09:03:16 INFO  LoginPageTests:49 - clicked login button
+2018-03-17 09:03:18 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-03-17 09:03:21 INFO  TestBase:26 - Opened the browser: firefox
+2018-03-17 09:03:22 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-03-17 09:03:22 INFO  LoginPageTests:64 - Entered username: Admin
+2018-03-17 09:03:22 INFO  LoginPageTests:66 - Entered password: admin123
+2018-03-17 09:03:23 INFO  LoginPageTests:68 - clicked login button
+2018-03-17 09:03:23 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-03-17 09:03:24 INFO  TestBase:26 - Opened the browser: chrome
+2018-03-17 09:03:26 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-03-17 09:03:26 INFO  LoginPageTests:64 - Entered username: Admin
+2018-03-17 09:03:26 INFO  LoginPageTests:66 - Entered password: admin123
+2018-03-17 09:03:27 INFO  LoginPageTests:68 - clicked login button
+2018-03-17 09:03:27 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-16-17 09:16:03 INFO  TestBase:26 - Opened the browser: firefox
+2018-16-17 09:16:03 INFO  TestBase:26 - Opened the browser: chrome
+2018-16-17 09:16:05 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-16-17 09:16:06 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-16-17 09:16:07 INFO  LoginPageTests:44 - Entered username: Admin
+2018-16-17 09:16:08 INFO  LoginPageTests:46 - Entered password: admin
+2018-16-17 09:16:08 INFO  LoginPageTests:44 - Entered username: Admin
+2018-16-17 09:16:08 INFO  LoginPageTests:46 - Entered password: admin
+2018-16-17 09:16:09 INFO  LoginPageTests:49 - clicked login button
+2018-16-17 09:16:09 INFO  LoginPageTests:49 - clicked login button
+2018-16-17 09:16:09 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-16-17 09:16:11 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-16-17 09:16:14 INFO  TestBase:26 - Opened the browser: firefox
+2018-16-17 09:16:15 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-16-17 09:16:17 INFO  LoginPageTests:64 - Entered username: Admin
+2018-16-17 09:16:17 INFO  LoginPageTests:66 - Entered password: admin123
+2018-16-17 09:16:18 INFO  LoginPageTests:68 - clicked login button
+2018-16-17 09:16:18 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-16-17 09:16:19 INFO  TestBase:26 - Opened the browser: chrome
+2018-16-17 09:16:20 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-16-17 09:16:21 INFO  LoginPageTests:64 - Entered username: Admin
+2018-16-17 09:16:21 INFO  LoginPageTests:66 - Entered password: admin123
+2018-16-17 09:16:22 INFO  LoginPageTests:68 - clicked login button
+2018-16-17 09:16:23 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-20-17 09:20:06 INFO  TestBase:26 - Opened the browser: firefox
+2018-20-17 09:20:06 INFO  TestBase:26 - Opened the browser: chrome
+2018-20-17 09:20:07 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-20-17 09:20:08 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-20-17 09:20:09 INFO  LoginPageTests:44 - Entered username: Admin
+2018-20-17 09:20:09 INFO  LoginPageTests:44 - Entered username: Admin
+2018-20-17 09:20:09 INFO  LoginPageTests:46 - Entered password: admin
+2018-20-17 09:20:09 INFO  LoginPageTests:46 - Entered password: admin
+2018-20-17 09:20:10 INFO  LoginPageTests:49 - clicked login button
+2018-20-17 09:20:11 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-20-17 09:20:11 INFO  LoginPageTests:49 - clicked login button
+2018-20-17 09:20:11 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-20-17 09:20:15 INFO  TestBase:26 - Opened the browser: firefox
+2018-20-17 09:20:17 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-20-17 09:20:17 INFO  LoginPageTests:64 - Entered username: Admin
+2018-20-17 09:20:17 INFO  LoginPageTests:66 - Entered password: admin123
+2018-20-17 09:20:19 INFO  TestBase:26 - Opened the browser: chrome
+2018-20-17 09:20:21 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-20-17 09:20:21 INFO  LoginPageTests:64 - Entered username: Admin
+2018-20-17 09:20:21 INFO  LoginPageTests:66 - Entered password: admin123
+2018-20-17 09:20:22 INFO  LoginPageTests:68 - clicked login button
+2018-20-17 09:20:22 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-20-17 09:20:22 INFO  LoginPageTests:68 - clicked login button
+2018-20-17 09:20:23 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials
+2018-25-17 09:25:48 INFO  TestBase:26 - Opened the browser: chrome
+2018-25-17 09:25:48 INFO  TestBase:26 - Opened the browser: firefox
+2018-25-17 09:25:50 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-25-17 09:25:50 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-25-17 09:25:51 INFO  LoginPageTests:44 - Entered username: Admin
+2018-25-17 09:25:51 INFO  LoginPageTests:46 - Entered password: admin
+2018-25-17 09:25:51 INFO  LoginPageTests:44 - Entered username: Admin
+2018-25-17 09:25:51 INFO  LoginPageTests:46 - Entered password: admin
+2018-25-17 09:25:53 INFO  LoginPageTests:49 - clicked login button
+2018-25-17 09:25:53 INFO  LoginPageTests:49 - clicked login button
+2018-25-17 09:25:55 INFO  LoginPageTests:53 - Captured the Title of Home page: OrangeHRM
+2018-26-17 09:26:00 INFO  TestBase:26 - Opened the browser: chrome
+2018-26-17 09:26:01 INFO  TestBase:28 - Navigated to the URL: http://opensource.demo.orangehrmlive.com/
+2018-26-17 09:26:01 INFO  LoginPageTests:64 - Entered username: Admin
+2018-26-17 09:26:01 INFO  LoginPageTests:66 - Entered password: admin123
+2018-26-17 09:26:02 INFO  LoginPageTests:68 - clicked login button
+2018-26-17 09:26:03 INFO  LoginPageTests:72 - Captured the Error Login Message: Invalid credentials

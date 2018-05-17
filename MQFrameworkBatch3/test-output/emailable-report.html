@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">FirefoxTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">9,727</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">ChromeTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">19,404</td><td></td><td></td></tr><tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num attn">1</th><th class="num">29,131</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FirefoxTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">pageTests.LoginPageTests</td><td><a href="#m0">testClosure</a></td><td rowspan="1">1526529353629</td><td rowspan="1">0</td></tr><tr><th colspan="4">FirefoxTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">pageTests.LoginPageTests</td><td><a href="#m1">loginWithValidCredentials</a></td><td rowspan="1">1526529350300</td><td rowspan="1">3328</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">pageTests.LoginPageTests</td><td><a href="#m2">testClosure</a></td><td rowspan="1">1526529353754</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">testIniatialize</a></td><td rowspan="1">1526529353754</td><td rowspan="1">0</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">pageTests.LoginPageTests</td><td><a href="#m4">loginWithInalidCredentials</a></td><td rowspan="1">1526529353754</td><td rowspan="1">0</td></tr></tbody><tbody id="t1"><tr><th colspan="4">ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">pageTests.LoginPageTests</td><td><a href="#m5">loginWithInalidCredentials</a></td><td rowspan="1">1526529361548</td><td rowspan="1">1465</td></tr><tr class="passedeven"><td><a href="#m6">loginWithValidCredentials</a></td><td rowspan="1">1526529350981</td><td rowspan="1">4221</td></tr></tbody></table><h2>FirefoxTest</h2><h3 id="m0">pageTests.LoginPageTests#testClosure</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 96 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;IN01LAP00082&apos;, ip: &apos;192.168.3.119&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fd07d307-03b9-4d94-af66-c3e62dafe09a
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+	at testBaseLibrary.TestBase.closeBrowser(TestBase.java:56)
+	at pageTests.LoginPageTests.testClosure(LoginPageTests.java:78)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;IN01LAP00082&apos;, ip: &apos;192.168.3.119&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12715)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9558)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9705)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9652)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12517)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">pageTests.LoginPageTests#loginWithValidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 115 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;IN01LAP00082&apos;, ip: &apos;192.168.3.119&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fd07d307-03b9-4d94-af66-c3e62dafe09a
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)
+	at pageTests.LoginPageTests.loginWithValidCredentials(LoginPageTests.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;IN01LAP00082&apos;, ip: &apos;192.168.3.119&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12715)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9558)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9705)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9652)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12517)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///C:/Users/VD57/AppData/Local/Temp/anonymous1211750520287768409webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">pageTests.LoginPageTests#testClosure</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">pageTests.LoginPageTests#testIniatialize</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">pageTests.LoginPageTests#loginWithInalidCredentials</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>ChromeTest</h2><h3 id="m5">pageTests.LoginPageTests#loginWithInalidCredentials</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">pageTests.LoginPageTests#loginWithValidCredentials</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
